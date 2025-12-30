@@ -1,0 +1,111 @@
+= My-Lang Playground
+:toc: macro
+:icons: font
+
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+*Playground for the My-Lang Progressive Language Family*
+
+image:https://img.shields.io/badge/Family-My--Lang-orange[My-Lang]
+image:https://img.shields.io/badge/License-AGPL--3.0-blue[License]
+
+toc::[]
+
+== Overview
+
+My-Lang is a progressive language family where each level builds on the previous, creating a learning path from simple to AI-native programming.
+
+== The Progression
+
+[source]
+----
+Me → Solo → Duet → Ensemble
+│     │      │       │
+│     │      │       └── AI-native multi-agent apps
+│     │      └────────── AI-assisted pair programming
+│     └───────────────── Systems programming foundation
+└─────────────────────── Personal programming (beginner)
+----
+
+== Language Levels
+
+=== Me (Personal)
+
+Beginner-friendly, focused on personal projects.
+
+[source,me]
+----
+-- Simple syntax, helpful errors
+say "Hello, world!"
+
+-- Gradual typing
+name = "Alice"
+age: Int = 25
+----
+
+=== Solo (Systems)
+
+Low-level control with safety.
+
+[source,solo]
+----
+-- Linear types, manual memory
+type Buffer = linear { ptr: *mut u8, len: usize }
+fn free(buf: Buffer) -> ()
+----
+
+=== Duet (AI-Assisted)
+
+Human-AI collaboration.
+
+[source,duet]
+----
+-- AI helps implement from intent
+intent "optimize for speed":
+    @ai_implement
+----
+
+=== Ensemble (AI-Native)
+
+Multi-agent applications.
+
+[source,ensemble]
+----
+-- Orchestrate AI agents
+ensemble Team:
+    agents: [Researcher, Editor]
+    workflow: research |> edit |> approve
+----
+
+== This Playground
+
+Experiments with the My-Lang family:
+
+* `me/` - Me language examples
+* `progression/` - Code evolution across levels
+* `interop/` - Cross-level interoperability
+* `tooling/` - Shared development tools
+
+== Getting Started
+
+[source,bash]
+----
+# Install the family
+guix install mylang-suite
+
+# Start with Me
+me run hello.me
+
+# Progress to Solo when ready
+solo build systems.solo
+----
+
+== Philosophy
+
+* **Progressive Disclosure**: Learn what you need when you need it
+* **Smooth Transitions**: Code can migrate between levels
+* **AI as Partner**: AI assistance grows with skill level
+
+== License
+
+SPDX-License-Identifier: AGPL-3.0-or-later
