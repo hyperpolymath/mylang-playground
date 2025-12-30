@@ -1,0 +1,1 @@
+// Typechecker stub - implementation pending
