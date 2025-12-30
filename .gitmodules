@@ -1,0 +1,12 @@
+[submodule "hives/me"]
+	path = hives/me
+	url = https://github.com/hyperpolymath/me-dialect-playground.git
+[submodule "hives/solo"]
+	path = hives/solo
+	url = https://github.com/hyperpolymath/solo-playground.git
+[submodule "hives/duet"]
+	path = hives/duet
+	url = https://github.com/hyperpolymath/duet-playground.git
+[submodule "hives/ensemble"]
+	path = hives/ensemble
+	url = https://github.com/hyperpolymath/ensemble-playground.git

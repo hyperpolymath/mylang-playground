@@ -79,25 +79,29 @@ ensemble Team:
 
 == This Playground
 
-Experiments with the My-Lang family:
+Experiments with the My-Lang family, organized as hives:
 
-* `me/` - Me language examples
-* `progression/` - Code evolution across levels
-* `interop/` - Cross-level interoperability
-* `tooling/` - Shared development tools
+* `hives/me/` - Me language playground (personal programming)
+* `hives/solo/` - Solo language playground (systems programming)
+* `hives/duet/` - Duet language playground (AI-assisted)
+* `hives/ensemble/` - Ensemble language playground (AI-native multi-agent)
 
 == Getting Started
 
 [source,bash]
 ----
-# Install the family
-guix install mylang-suite
+# Clone with all hives
+git clone --recursive https://github.com/hyperpolymath/mylang-playground.git
+cd mylang-playground
 
-# Start with Me
-me run hello.me
+# Or initialize submodules after clone
+git submodule update --init --recursive
 
-# Progress to Solo when ready
-solo build systems.solo
+# Explore each hive
+cd hives/me     # Start here
+cd hives/solo   # Systems level
+cd hives/duet   # AI-assisted
+cd hives/ensemble  # Multi-agent
 ----
 
 == Philosophy
