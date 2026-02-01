@@ -25,3 +25,6 @@ lint:
 # Clean build artifacts
 clean:
     @echo "Clean not configured yet"
+
+check: fmt lint test
+    @echo "All checks passed"

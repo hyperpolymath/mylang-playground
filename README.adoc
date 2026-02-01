@@ -1,13 +1,13 @@
 = My-Lang Playground
 
-image:https://img.shields.io/badge/License-MPL_2.0-blue.svg[MPL-2.0,link="https://opensource.org/licenses/MPL-2.0"]
-image:https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-licence"]
+image:https://img.shields.io/badge/License-PMPL--1.0-blue.svg[License: PMPL-1.0,link="https://github.com/hyperpolymath/palimpsest-license"]
+image:https://img.shields.io/badge/Philosophy-Palimpsest-indigo.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-license"]
 
 
 :toc: macro
 :icons: font
 
-// SPDX-License-Identifier: PMPL-1.0
+// SPDX-License-Identifier: PMPL-1.0-or-later
 
 *Playground for the My-Lang Progressive Language Family*
 
@@ -173,4 +173,4 @@ ensemble Team:
 
 == License
 
-SPDX-License-Identifier: PMPL-1.0
+SPDX-License-Identifier: PMPL-1.0-or-later-or-later
